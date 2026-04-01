@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #6521a4;
+    background-color: #551690;
     color: #333;
 }
 
@@ -10,11 +10,13 @@ h1 {
     color: #bba2cd;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif;
 }
 h2 {
     color: #e4d4f4;
     text-align: center;
     margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 img {

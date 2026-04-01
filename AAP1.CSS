@@ -24,20 +24,9 @@ img {
 
 }
 
-button1 {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #6a0dad;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: center;
-}
-
 
 a {
-    color: #6a0dad;
+    color: #45096f;
     text-decoration: none;
 }
 
@@ -52,4 +41,15 @@ h4 {
     color: #131213;
     text-align: center;
     margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #c583f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: center;
 }

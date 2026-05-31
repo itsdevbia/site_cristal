@@ -30,32 +30,36 @@ a {
 }
 
 .container {
-  width: 300px;
-  margin: 100px auto; /* centraliza na tela */
+  max-width: 350px;
+  margin: 100px auto; /* centraliza horizontalmente */
   padding: 20px;
-  text-align: left;
+  text-align: left; /* alinha o texto à esquerda */
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* espaçamento entre os campos */
+  gap: 15px; /* espaçamento entre os campos */
 }
 
 label {
   font-weight: bold;
   color: #333;
+  margin-bottom: 5px;
+  display: block; /* força o label a ficar acima do input */
+  margin-bottom: 6px; /* espaço entre o texto e o campo */
 }
 
 input {
-  padding: 8px;
+  width: 100%;
+  padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 button {
-  margin-top: 15px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
   background-color: #b57cf2;
   color: white;
   border: none;
@@ -66,4 +70,7 @@ button {
 
 button:hover {
   background-color: #9a5de0;
+}
+.form-group {
+  margin-bottom: 20px; /* espaçamento entre cada grupo (Nome/Senha) */
 }

@@ -30,22 +30,40 @@ a {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 300px;
-    gap : 15px; 
-    align-items: center;
-
-    
+  width: 300px;
+  margin: 100px auto; /* centraliza na tela */
+  padding: 20px;
+  text-align: left;
 }
 
-     button{
-        margin-top: 10px;
-        padding: 10px 20px;
-        background-color: #c583f4;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: 50px;
-    }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* espaçamento entre os campos */
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #b57cf2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center; /* centraliza o botão */
+}
+
+button:hover {
+  background-color: #9a5de0;
+}
